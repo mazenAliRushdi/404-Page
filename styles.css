@@ -10,3 +10,12 @@ body {
   min-height: 100vh;
   overflow: hidden;
 }
+
+.container {
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #1e1e1e; /* Slightly lighter dark background */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
