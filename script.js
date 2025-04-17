@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     searchButton.addEventListener("click", function () {
       const searchTerm = searchInput.value.trim();
       if (searchTerm) {
+        // Replace this with your actual site search logic
         alert(`Searching for: ${searchTerm}`);
       } else {
         alert("Please enter a search term.");
