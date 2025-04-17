@@ -64,6 +64,13 @@ body {
   opacity: 0;
 }
 
+@keyframes slide-up {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* Search Bar */
 .search-container {
   display: flex;
@@ -107,4 +114,43 @@ body {
 
 #search-button:hover {
   background-color: #3949ab;
+}
+
+/* Helpful Links */
+.helpful-links {
+  font-size: 1em;
+  color: #ccc;
+  margin-bottom: 10px;
+  animation: fade-in 0.8s ease-out forwards 2s; /* Fade in helpful links */
+  opacity: 0;
+}
+
+.links-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+  animation: slide-right 0.8s ease-out forwards 2.3s; /* Slide in the links */
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+@keyframes slide-right {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.links-list li {
+  margin: 8px 0;
+}
+
+.links-list a {
+  color: #80cbc4; /* Teal accent color for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links-list a:hover {
+  color: #26a69a;
 }
