@@ -163,17 +163,13 @@ body {
   background-color: #f44336;
   margin: 0 10px;
   opacity: 0.7;
-  animation: subtle-spin 2s infinite linear,
-    pulse-opacity 1.5s infinite alternate; /* Combined spin and pulse */
 }
 
 .circle-2 {
-  animation-delay: 0.3s;
   background-color: #ff9800;
 }
 
 .circle-3 {
-  animation-delay: 0.6s;
   background-color: #4caf50;
 }
 
@@ -189,24 +185,5 @@ body {
   }
   100% {
     opacity: 1;
-  }
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .error-code {
-    font-size: 6em;
-  }
-  .error-message {
-    font-size: 1.8em;
-  }
-  .suggestion {
-    font-size: 1em;
-  }
-  .search-container {
-    max-width: 90%;
-  }
-  .links-list a {
-    font-size: 0.9em;
   }
 }
