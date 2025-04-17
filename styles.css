@@ -54,3 +54,19 @@ body {
     opacity: 1;
   }
 }
+
+.suggestion {
+  font-size: 1.1em;
+  color: #ccc;
+  margin-bottom: 30px;
+  animation: slide-up 1s ease-out forwards 1s; /* Slide up the suggestion */
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+@keyframes slide-up {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
